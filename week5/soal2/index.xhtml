@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Formulir Registrasi Data Mahasiswa</title>
+    </head>
+    <body>
+        <h1>Reservation Hotel Room</h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Personal date</legend>
+                <label for="nama"><strong>1.Name</strong></label><br/>
+                <input type="text" name="nama" id="nama" size="30"/><br/>
+                
+                <label for="gender"><strong>2.Gender</strong></label><br/>
+                <input type="text" name="gender" id="gender"/><br/>
+
+                <label for="email"><strong>3.Email Address</strong></label><br/>
+                <input type="text" name="email" id="email"/><br/>
+
+                <label for="telepon"><strong>4.Telp Number</strong></label><br/>
+                <input type="text" name="telepon" id="telepon"/><br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Reservation Room</legend>
+                <label for="resername"><strong>1.Reservation Name</strong></label><br/>
+                <input type="text" name="resername" id="resername"/><br/>
+
+                <label for="booking"><strong>2. Booking Date</strong></label><br/>
+                <input type="text" name="booking" id="booking"/><br/>
+
+                <label for="rtype"><strong>3.Room Type</strong></label><br/>
+                <select name="rtype" id="rtype">
+                    <option value="deluxe">deluxe</option>
+                    <option value="deluxe">deluxe</option>
+                    <option value="deluxe">deluxe</option>
+                </select><br/>
+
+                <label for="btype"><strong>4.Bed Type</strong></label><br/>
+                <select name="btype" id="btype">
+                    <option value="singlebed">singlebed</option>
+                    <option value="doublebed">doublebed</option>
+                </select><br/>
+
+                <label for="breakfast"><strong>5.Breakfast</strong></label><br/>
+                <input type="radio" name="breakfast" id="breakfast"/>With Breakfast
+                <input type="radio" name="breakfast" id="breakfast"/>Without Breakfast
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment</legend>
+                <label for="indate"><strong>1.Check in date</strong></label><br/>
+                <input type="text" name="indate" id="indate"/><br/>
+
+                <label for="outdate"><strong>2.Check out date</strong></label><br/>
+                <input type="text" name="outdate" id="outdate"/><br/>
+
+                <label for="paymethod"><strong>3.Payment method</strong></label><br/>
+                <select name="paymethod" id="paymethod">
+                    <option>cash</option>
+                    <option>kredit</option>
+                </select>
+            </fieldset><br/>
+
+            <button type="submit">Submit</button>
+        </form>
+        
+    </body>
+</html>
